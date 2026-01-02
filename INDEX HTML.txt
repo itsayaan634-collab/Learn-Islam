@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Noor-ul-Ilm | Islamic Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Language Switch -->
+  <div class="lang-switch">
+    <button onclick="setLanguage('ur')">اردو</button>
+    <button onclick="setLanguage('en')">English</button>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <h1 id="title">Noor-ul-Ilm</h1>
+    <p id="subtitle">Islamic Learning Platform</p>
+  </header>
+
+  <!-- Courses -->
+  <section class="courses">
+    <h2 id="courseTitle">Courses</h2>
+
+    <div class="course-card" id="course1">Qur’an Learning</div>
+    <div class="course-card" id="course2">Namaz Course</div>
+    <div class="course-card" id="course3">Masnoon Duas</div>
+    <div class="course-card" id="course4">Seerat-un-Nabi ﷺ</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

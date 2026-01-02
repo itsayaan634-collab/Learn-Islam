@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f5;
+  text-align: center;
+}
+
+header {
+  background: #1e6f5c;
+  color: white;
+  padding: 30px;
+}
+
+.lang-switch {
+  text-align: right;
+  padding: 10px;
+}
+
+.lang-switch button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.courses {
+  padding: 30px;
+}
+
+.course-card {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  width: 70%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-size: 18px;
+}

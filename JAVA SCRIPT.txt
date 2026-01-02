@@ -1,0 +1,26 @@
+function setLanguage(lang) {
+  if (lang === "ur") {
+    document.body.style.direction = "rtl";
+
+    title.innerText = "نورُ العلم";
+    subtitle.innerText = "اسلامی تعلیمی پلیٹ فارم";
+    courseTitle.innerText = "کورسز";
+
+    course1.innerText = "قرآن سیکھیں";
+    course2.innerText = "نماز کورس";
+    course3.innerText = "مسنون دعائیں";
+    course4.innerText = "سیرت النبی ﷺ";
+  } 
+  else {
+    document.body.style.direction = "ltr";
+
+    title.innerText = "Noor-ul-Ilm";
+    subtitle.innerText = "Islamic Learning Platform";
+    courseTitle.innerText = "Courses";
+
+    course1.innerText = "Qur’an Learning";
+    course2.innerText = "Namaz Course";
+    course3.innerText = "Masnoon Duas";
+    course4.innerText = "Seerat-un-Nabi ﷺ";
+  }
+}

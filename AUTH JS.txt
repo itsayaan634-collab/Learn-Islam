@@ -1,0 +1,37 @@
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "XXXX",
+  appId: "XXXX"
+};
+
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
+// Signup
+function signup() {
+  const email = email.value;
+  const password = password.value;
+
+  auth.createUserWithEmailAndPassword(email, password)
+    .then(() => {
+      alert("Signup Successful");
+      window.location.href = "index.html";
+    })
+    .catch(error => alert(error.message));
+}
+
+// Login
+function login() {
+  const email = email.value;
+  const password = password.value;
+
+  auth.signInWithEmailAndPassword(email, password)
+    .then(() => {
+      alert("Login Successful");
+      window.location.href = "index.html";
+    })
+    .catch(error => alert(error.message));
+}
